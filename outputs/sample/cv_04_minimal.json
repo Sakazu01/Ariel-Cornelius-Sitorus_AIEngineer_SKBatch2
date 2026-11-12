@@ -1,0 +1,143 @@
+{
+  "candidate_ref": "cand_51bb56c9c6",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [
+      {
+        "institution": "Universitas Contoh",
+        "degree": "S1",
+        "field": "Informatika",
+        "end_year": 2025,
+        "evidence": "Universitas Contoh - S1 Informatika, 2021 - 2025",
+        "confidence": 0.9
+      }
+    ],
+    "experience": [],
+    "skills": [
+      {
+        "name": "Python",
+        "context": "listed",
+        "evidence": "Python",
+        "confidence": 0.7
+      },
+      {
+        "name": "Excel",
+        "context": "listed",
+        "evidence": "Excel",
+        "confidence": 0.7
+      },
+      {
+        "name": "Communication",
+        "context": "listed",
+        "evidence": "Communication",
+        "confidence": 0.7
+      },
+      {
+        "name": "Teamwork",
+        "context": "listed",
+        "evidence": "Teamwork",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.46,
+    "warnings": [],
+    "derived": {
+      "experience_months": 0,
+      "skills_normalized": {
+        "python": "listed",
+        "excel": "listed",
+        "communication": "listed",
+        "teamwork": "listed"
+      },
+      "gaps": []
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "listed",
+      "evidence": "Python"
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 0.13,
+    "nice_to_have": 0.0,
+    "experience": 0.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "insufficient_info",
+    "score": null,
+    "confidence": "low",
+    "rationale": [
+      "Informasi tidak cukup untuk menghitung skor yang bermakna."
+    ],
+    "caveats": [
+      {
+        "code": "low_extraction_quality",
+        "severity": "major",
+        "message": "Kualitas ekstraksi 0.46 di bawah batas 0.5: informasi di CV terlalu sedikit atau tidak terbaca untuk dinilai. Minta CV yang lebih lengkap."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 0,
+      "email": 1,
+      "phone": 0,
+      "url": 0,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

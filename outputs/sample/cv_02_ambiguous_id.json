@@ -1,0 +1,195 @@
+{
+  "candidate_ref": "cand_386ea4fed2",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [
+      {
+        "institution": "Institut Teknologi Contoh",
+        "degree": "S1",
+        "field": "Teknik Industri",
+        "end_year": 2020,
+        "evidence": "Institut Teknologi Contoh - S1 Teknik Industri, 2016 - 2020",
+        "confidence": 0.9
+      }
+    ],
+    "experience": [
+      {
+        "company": "CV Mitra Data",
+        "title": "Data Analyst",
+        "start": "2021-02",
+        "end": "2022-05",
+        "summary": "Membuat dashboard penjualan dan menganalisis data dengan Python dan SQL. Otomasi laporan mingguan memakai skrip Python.",
+        "evidence": "Data Analyst - CV Mitra Data, Feb 2021 - Mei 2022",
+        "confidence": 0.9
+      },
+      {
+        "company": "PT Solusi Prediksi",
+        "title": "Junior Data Scientist",
+        "start": "2023-02",
+        "end": "2023-10",
+        "summary": "Membangun model klasifikasi churn pelanggan. Eksplorasi awal chatbot internal untuk tim support.",
+        "evidence": "Junior Data Scientist - PT Solusi Prediksi, Feb 2023 - Okt 2023",
+        "confidence": 0.9
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "context": "demonstrated",
+        "evidence": "Membuat dashboard penjualan dan menganalisis data dengan Python dan SQL.",
+        "confidence": 0.9
+      },
+      {
+        "name": "SQL",
+        "context": "demonstrated",
+        "evidence": "Membuat dashboard penjualan dan menganalisis data dengan Python dan SQL.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Machine Learning",
+        "context": "listed",
+        "evidence": "Machine Learning",
+        "confidence": 0.7
+      },
+      {
+        "name": "LLM",
+        "context": "listed",
+        "evidence": "LLM",
+        "confidence": 0.7
+      },
+      {
+        "name": "RAG",
+        "context": "listed",
+        "evidence": "RAG",
+        "confidence": 0.7
+      },
+      {
+        "name": "Docker",
+        "context": "listed",
+        "evidence": "Docker",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.94,
+    "warnings": [],
+    "derived": {
+      "experience_months": 25,
+      "skills_normalized": {
+        "python": "demonstrated",
+        "sql": "demonstrated",
+        "machine learning": "listed",
+        "llm": "listed",
+        "rag": "listed",
+        "docker": "listed"
+      },
+      "gaps": [
+        {
+          "after": "2022-05",
+          "before": "2023-02",
+          "months": 8
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Membuat dashboard penjualan dan menganalisis data dengan Python dan SQL."
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "listed",
+      "evidence": "LLM"
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "listed",
+      "evidence": "Machine Learning"
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "RAG"
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "Docker"
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Membuat dashboard penjualan dan menganalisis data dengan Python dan SQL."
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 0.6,
+    "nice_to_have": 0.36,
+    "experience": 1.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "partial_match",
+    "score": 0.63,
+    "confidence": "medium",
+    "rationale": [
+      "Skor 0.63 = must-have 0.60 x 0.6 + nice-to-have 0.36 x 0.2 + pengalaman 1.00 x 0.2 (25 bulan dari target 12).",
+      "Must-have 'python': demonstrated - bukti: \"Membuat dashboard penjualan dan menganalisis data dengan Python dan SQL.\"",
+      "Must-have 'llm': listed - bukti: \"LLM\"",
+      "Must-have 'machine learning': listed - bukti: \"Machine Learning\""
+    ],
+    "caveats": [
+      {
+        "code": "claimed_only",
+        "severity": "minor",
+        "message": "Must-have 'llm' hanya tertulis di daftar skill, tanpa konteks pengalaman atau proyek. Belum terverifikasi."
+      },
+      {
+        "code": "claimed_only",
+        "severity": "minor",
+        "message": "Must-have 'machine learning' hanya tertulis di daftar skill, tanpa konteks pengalaman atau proyek. Belum terverifikasi."
+      },
+      {
+        "code": "career_gap",
+        "severity": "info",
+        "message": "Jeda 8 bulan antara 2022-05 dan 2023-02. Tidak memengaruhi skor; tanyakan hanya jika relevan dengan peran."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 4,
+      "email": 1,
+      "phone": 1,
+      "url": 0,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

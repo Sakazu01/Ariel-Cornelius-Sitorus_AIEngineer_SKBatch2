@@ -1,0 +1,222 @@
+{
+  "candidate_ref": "cand_55f412c542",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [],
+    "experience": [],
+    "skills": [
+      {
+        "name": "Python",
+        "context": "demonstrated",
+        "evidence": "Membuat chatbot pencarian FAQ kampus dengan Python dan pencarian semantik NLP; dicoba oleh 120",
+        "confidence": 0.9
+      },
+      {
+        "name": "NLP",
+        "context": "demonstrated",
+        "evidence": "Membuat chatbot pencarian FAQ kampus dengan Python dan pencarian semantik NLP; dicoba oleh 120",
+        "confidence": 0.9
+      },
+      {
+        "name": "scikit-learn",
+        "context": "listed",
+        "evidence": "scikit-learn",
+        "confidence": 0.7
+      },
+      {
+        "name": "FastAPI",
+        "context": "listed",
+        "evidence": "FastAPI",
+        "confidence": 0.7
+      },
+      {
+        "name": "SQL",
+        "context": "listed",
+        "evidence": "SQL",
+        "confidence": 0.7
+      },
+      {
+        "name": "Docker",
+        "context": "listed",
+        "evidence": "Docker",
+        "confidence": 0.7
+      },
+      {
+        "name": "Git",
+        "context": "listed",
+        "evidence": "Git",
+        "confidence": 0.7
+      },
+      {
+        "name": "prompt engineering",
+        "context": "listed",
+        "evidence": "prompt engineering",
+        "confidence": 0.7
+      },
+      {
+        "name": "SERTIFIKASI",
+        "context": "listed",
+        "evidence": "SERTIFIKASI",
+        "confidence": 0.7
+      },
+      {
+        "name": "Machine Learning Specialization",
+        "context": "listed",
+        "evidence": "Machine Learning Specialization",
+        "confidence": 0.7
+      },
+      {
+        "name": "Platform Belajar Contoh",
+        "context": "listed",
+        "evidence": "Platform Belajar Contoh",
+        "confidence": 0.7
+      },
+      {
+        "name": "2023",
+        "context": "listed",
+        "evidence": "2023",
+        "confidence": 0.7
+      },
+      {
+        "name": "BNSP",
+        "context": "listed",
+        "evidence": "BNSP",
+        "confidence": 0.7
+      },
+      {
+        "name": "2024",
+        "context": "listed",
+        "evidence": "2024",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.51,
+    "warnings": [],
+    "derived": {
+      "experience_months": 0,
+      "skills_normalized": {
+        "python": "demonstrated",
+        "nlp": "demonstrated",
+        "machine learning": "listed",
+        "fastapi": "listed",
+        "sql": "listed",
+        "docker": "listed",
+        "git": "listed",
+        "llm": "listed",
+        "sertifikasi": "listed",
+        "machine learning specialization": "listed",
+        "platform belajar contoh": "listed",
+        "2023": "listed",
+        "bnsp": "listed",
+        "2024": "listed"
+      },
+      "gaps": []
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Membuat chatbot pencarian FAQ kampus dengan Python dan pencarian semantik NLP; dicoba oleh 120"
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "listed",
+      "evidence": "prompt engineering"
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "listed",
+      "evidence": "scikit-learn"
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "Docker"
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "FastAPI"
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "SQL"
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 0.6,
+    "nice_to_have": 0.24,
+    "experience": 0.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "weak_match",
+    "score": 0.41,
+    "confidence": "low",
+    "rationale": [
+      "Skor 0.41 = must-have 0.60 x 0.6 + nice-to-have 0.24 x 0.2 + pengalaman 0.00 x 0.2 (0 bulan dari target 12).",
+      "Must-have 'python': demonstrated - bukti: \"Membuat chatbot pencarian FAQ kampus dengan Python dan pencarian semantik NLP; dicoba ole…\"",
+      "Must-have 'llm': listed - bukti: \"prompt engineering\"",
+      "Must-have 'machine learning': listed - bukti: \"scikit-learn\""
+    ],
+    "caveats": [
+      {
+        "code": "claimed_only",
+        "severity": "minor",
+        "message": "Must-have 'llm' hanya tertulis di daftar skill, tanpa konteks pengalaman atau proyek. Belum terverifikasi."
+      },
+      {
+        "code": "claimed_only",
+        "severity": "minor",
+        "message": "Must-have 'machine learning' hanya tertulis di daftar skill, tanpa konteks pengalaman atau proyek. Belum terverifikasi."
+      },
+      {
+        "code": "experience_below_target",
+        "severity": "minor",
+        "message": "Pengalaman terhitung 0 bulan (magang ikut dihitung) vs target 12 bulan."
+      },
+      {
+        "code": "near_threshold",
+        "severity": "minor",
+        "message": "Skor 0.41 dekat batas tier (0.45); tier bisa berubah dengan perubahan kecil pada rubric."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 0,
+      "email": 1,
+      "phone": 1,
+      "url": 1,
+      "name": 0
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

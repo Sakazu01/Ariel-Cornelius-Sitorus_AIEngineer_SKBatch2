@@ -1,0 +1,186 @@
+{
+  "candidate_ref": "cand_980ad09835",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [
+      {
+        "institution": "Universitas Contoh Mandiri",
+        "degree": "S1",
+        "field": "Ilmu Komputer",
+        "end_year": 2023,
+        "evidence": "Universitas Contoh Mandiri - S1 Ilmu Komputer, 2019 - 2023",
+        "confidence": 0.9
+      }
+    ],
+    "experience": [
+      {
+        "company": "Startup Edukasi Cerdas",
+        "title": "Machine Learning Engineer",
+        "start": "2023-09",
+        "end": "present",
+        "summary": "Fine-tuned model NLP berbasis Transformers dengan PyTorch untuk klasifikasi esai siswa. Membangun layanan inferensi dengan FastAPI dan Docker.",
+        "evidence": "Machine Learning Engineer - Startup Edukasi Cerdas, Sep 2023 - Present",
+        "confidence": 0.9
+      },
+      {
+        "company": "Lab Komputasi Kampus",
+        "title": "Research Assistant",
+        "start": "2022-01",
+        "end": "2023-08",
+        "summary": "Eksperimen deep learning untuk pengenalan teks tulisan tangan memakai TensorFlow.",
+        "evidence": "Research Assistant - Lab Komputasi Kampus, Jan 2022 - Agu 2023",
+        "confidence": 0.9
+      }
+    ],
+    "skills": [
+      {
+        "name": "PyTorch",
+        "context": "demonstrated",
+        "evidence": "Fine-tuned model NLP berbasis Transformers dengan PyTorch untuk klasifikasi esai siswa.",
+        "confidence": 0.9
+      },
+      {
+        "name": "NLP",
+        "context": "demonstrated",
+        "evidence": "Fine-tuned model NLP berbasis Transformers dengan PyTorch untuk klasifikasi esai siswa.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Docker",
+        "context": "demonstrated",
+        "evidence": "Membangun layanan inferensi dengan FastAPI dan Docker.",
+        "confidence": 0.9
+      },
+      {
+        "name": "FastAPI",
+        "context": "demonstrated",
+        "evidence": "Membangun layanan inferensi dengan FastAPI dan Docker.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Python",
+        "context": "demonstrated",
+        "evidence": "Menulis Python untuk pipeline data dan evaluasi model.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Transformers",
+        "context": "listed",
+        "evidence": "Transformers",
+        "confidence": 0.7
+      },
+      {
+        "name": "Git",
+        "context": "listed",
+        "evidence": "Git",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.96,
+    "warnings": [],
+    "derived": {
+      "experience_months": 59,
+      "skills_normalized": {
+        "machine learning": "demonstrated",
+        "nlp": "demonstrated",
+        "docker": "demonstrated",
+        "fastapi": "demonstrated",
+        "python": "demonstrated",
+        "transformers": "listed",
+        "git": "listed"
+      },
+      "gaps": []
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Menulis Python untuk pipeline data dan evaluasi model."
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Fine-tuned model NLP berbasis Transformers dengan PyTorch untuk klasifikasi esai siswa."
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Membangun layanan inferensi dengan FastAPI dan Docker."
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Membangun layanan inferensi dengan FastAPI dan Docker."
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 0.67,
+    "nice_to_have": 0.4,
+    "experience": 1.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "partial_match",
+    "score": 0.68,
+    "confidence": "medium",
+    "rationale": [
+      "Skor 0.68 = must-have 0.67 x 0.6 + nice-to-have 0.40 x 0.2 + pengalaman 1.00 x 0.2 (59 bulan dari target 12).",
+      "Must-have 'python': demonstrated - bukti: \"Menulis Python untuk pipeline data dan evaluasi model.\"",
+      "Must-have 'llm': missing",
+      "Must-have 'machine learning': demonstrated - bukti: \"Fine-tuned model NLP berbasis Transformers dengan PyTorch untuk klasifikasi esai siswa.\""
+    ],
+    "caveats": [
+      {
+        "code": "must_have_not_evidenced",
+        "severity": "minor",
+        "message": "Tidak ada bukti 'llm' di CV. Ini belum berarti kandidat tidak punya skill tersebut; verifikasi saat screening call."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 2,
+      "email": 1,
+      "phone": 1,
+      "url": 0,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

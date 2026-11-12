@@ -1,0 +1,168 @@
+{
+  "candidate_ref": "cand_a1295332b9",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [],
+    "experience": [],
+    "skills": [
+      {
+        "name": "PostgreSQL",
+        "context": "demonstrated",
+        "evidence": "Membuat dashboard penjualan harian di Tableau dengan data dari PostgreSQL yang dipakai 25 tim penjualan.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Python",
+        "context": "demonstrated",
+        "evidence": "Membangun model prediksi churn pelanggan dengan Python dan scikit-learn; akurasi naik dari 68% menjadi",
+        "confidence": 0.9
+      },
+      {
+        "name": "scikit-learn",
+        "context": "demonstrated",
+        "evidence": "Membangun model prediksi churn pelanggan dengan Python dan scikit-learn; akurasi naik dari 68% menjadi",
+        "confidence": 0.9
+      },
+      {
+        "name": "Tableau",
+        "context": "listed",
+        "evidence": "Tableau",
+        "confidence": 0.7
+      },
+      {
+        "name": "Microsoft Excel",
+        "context": "listed",
+        "evidence": "Microsoft Excel",
+        "confidence": 0.7
+      },
+      {
+        "name": "Docker",
+        "context": "listed",
+        "evidence": "Docker",
+        "confidence": 0.7
+      },
+      {
+        "name": "LLM (sedang belajar)",
+        "context": "listed",
+        "evidence": "LLM (sedang belajar)",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.51,
+    "warnings": [],
+    "derived": {
+      "experience_months": 0,
+      "skills_normalized": {
+        "sql": "demonstrated",
+        "python": "demonstrated",
+        "machine learning": "demonstrated",
+        "tableau": "listed",
+        "microsoft excel": "listed",
+        "docker": "listed",
+        "llm (sedang belajar)": "listed"
+      },
+      "gaps": []
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Membangun model prediksi churn pelanggan dengan Python dan scikit-learn; akurasi naik dari 68% menjadi"
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Membangun model prediksi churn pelanggan dengan Python dan scikit-learn; akurasi naik dari 68% menjadi"
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "Docker"
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Membuat dashboard penjualan harian di Tableau dengan data dari PostgreSQL yang dipakai 25 tim penjualan."
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 0.67,
+    "nice_to_have": 0.28,
+    "experience": 0.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "partial_match",
+    "score": 0.46,
+    "confidence": "low",
+    "rationale": [
+      "Skor 0.46 = must-have 0.67 x 0.6 + nice-to-have 0.28 x 0.2 + pengalaman 0.00 x 0.2 (0 bulan dari target 12).",
+      "Must-have 'python': demonstrated - bukti: \"Membangun model prediksi churn pelanggan dengan Python dan scikit-learn; akurasi naik dar…\"",
+      "Must-have 'llm': missing",
+      "Must-have 'machine learning': demonstrated - bukti: \"Membangun model prediksi churn pelanggan dengan Python dan scikit-learn; akurasi naik dar…\""
+    ],
+    "caveats": [
+      {
+        "code": "must_have_not_evidenced",
+        "severity": "minor",
+        "message": "Tidak ada bukti 'llm' di CV. Ini belum berarti kandidat tidak punya skill tersebut; verifikasi saat screening call."
+      },
+      {
+        "code": "experience_below_target",
+        "severity": "minor",
+        "message": "Pengalaman terhitung 0 bulan (magang ikut dihitung) vs target 12 bulan."
+      },
+      {
+        "code": "near_threshold",
+        "severity": "minor",
+        "message": "Skor 0.46 dekat batas tier (0.45); tier bisa berubah dengan perubahan kecil pada rubric."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 0,
+      "email": 1,
+      "phone": 1,
+      "url": 0,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

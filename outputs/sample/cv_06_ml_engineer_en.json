@@ -1,0 +1,207 @@
+{
+  "candidate_ref": "cand_154383560b",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [],
+    "experience": [],
+    "skills": [
+      {
+        "name": "LangChain",
+        "context": "demonstrated",
+        "evidence": "Designed a retrieval-augmented generation (RAG) assistant with LangChain and FAISS over 12,000 internal",
+        "confidence": 0.9
+      },
+      {
+        "name": "retrieval-augmented generation",
+        "context": "demonstrated",
+        "evidence": "Designed a retrieval-augmented generation (RAG) assistant with LangChain and FAISS over 12,000 internal",
+        "confidence": 0.9
+      },
+      {
+        "name": "PyTorch",
+        "context": "demonstrated",
+        "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per",
+        "confidence": 0.9
+      },
+      {
+        "name": "Docker",
+        "context": "demonstrated",
+        "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per",
+        "confidence": 0.9
+      },
+      {
+        "name": "FastAPI",
+        "context": "demonstrated",
+        "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per",
+        "confidence": 0.9
+      },
+      {
+        "name": "AWS",
+        "context": "demonstrated",
+        "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per",
+        "confidence": 0.9
+      },
+      {
+        "name": "Python",
+        "context": "demonstrated",
+        "evidence": "Wrote Python and SQL data pipelines on PostgreSQL that cut weekly reporting time from 6 hours to 40 minutes.",
+        "confidence": 0.9
+      },
+      {
+        "name": "SQL",
+        "context": "demonstrated",
+        "evidence": "Wrote Python and SQL data pipelines on PostgreSQL that cut weekly reporting time from 6 hours to 40 minutes.",
+        "confidence": 0.9
+      },
+      {
+        "name": "NLP",
+        "context": "demonstrated",
+        "evidence": "Fine-tuned Indonesian NLP models for sentiment and topic classification, lifting F1 from 0.71 to 0.83.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hard skill: Python",
+        "context": "listed",
+        "evidence": "Hard skill: Python",
+        "confidence": 0.7
+      },
+      {
+        "name": "Cloud: AWS",
+        "context": "listed",
+        "evidence": "Cloud: AWS",
+        "confidence": 0.7
+      },
+      {
+        "name": "Soft skill: Mentoring",
+        "context": "listed",
+        "evidence": "Soft skill: Mentoring",
+        "confidence": 0.7
+      },
+      {
+        "name": "technical writing",
+        "context": "listed",
+        "evidence": "technical writing",
+        "confidence": 0.7
+      },
+      {
+        "name": "stakeholder communication",
+        "context": "listed",
+        "evidence": "stakeholder communication",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.52,
+    "warnings": [],
+    "derived": {
+      "experience_months": 0,
+      "skills_normalized": {
+        "llm": "demonstrated",
+        "rag": "demonstrated",
+        "machine learning": "demonstrated",
+        "docker": "demonstrated",
+        "fastapi": "demonstrated",
+        "cloud": "demonstrated",
+        "python": "demonstrated",
+        "sql": "demonstrated",
+        "nlp": "demonstrated",
+        "hard skill: python": "listed",
+        "cloud: aws": "listed",
+        "soft skill: mentoring": "listed",
+        "technical writing": "listed",
+        "stakeholder communication": "listed"
+      },
+      "gaps": []
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Wrote Python and SQL data pipelines on PostgreSQL that cut weekly reporting time from 6 hours to 40 minutes."
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Designed a retrieval-augmented generation (RAG) assistant with LangChain and FAISS over 12,000 internal"
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per"
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Designed a retrieval-augmented generation (RAG) assistant with LangChain and FAISS over 12,000 internal"
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per"
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per"
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Wrote Python and SQL data pipelines on PostgreSQL that cut weekly reporting time from 6 hours to 40 minutes."
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M requests per"
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 1.0,
+    "nice_to_have": 1.0,
+    "experience": 0.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "strong_match",
+    "score": 0.8,
+    "confidence": "low",
+    "rationale": [
+      "Skor 0.80 = must-have 1.00 x 0.6 + nice-to-have 1.00 x 0.2 + pengalaman 0.00 x 0.2 (0 bulan dari target 12).",
+      "Must-have 'python': demonstrated - bukti: \"Wrote Python and SQL data pipelines on PostgreSQL that cut weekly reporting time from 6 h…\"",
+      "Must-have 'llm': demonstrated - bukti: \"Designed a retrieval-augmented generation (RAG) assistant with LangChain and FAISS over 1…\"",
+      "Must-have 'machine learning': demonstrated - bukti: \"Served PyTorch models behind FastAPI services packaged with Docker on AWS, handling 2.4M …\""
+    ],
+    "caveats": [
+      {
+        "code": "experience_below_target",
+        "severity": "minor",
+        "message": "Pengalaman terhitung 0 bulan (magang ikut dihitung) vs target 12 bulan."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 0,
+      "email": 1,
+      "phone": 1,
+      "url": 2,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

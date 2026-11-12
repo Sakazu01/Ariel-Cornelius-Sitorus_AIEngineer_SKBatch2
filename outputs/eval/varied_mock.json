@@ -1,0 +1,27 @@
+{
+  "llm": "mock",
+  "quality": {
+    "skill_precision": 1.0,
+    "skill_recall": 0.965,
+    "skill_f1": 0.982,
+    "skill_context_accuracy": 0.964,
+    "experience_months_mae": 39.62,
+    "education_exact_match": 0.385,
+    "tier_agreement": 0.615,
+    "n_cvs": 13,
+    "false_advance": 0,
+    "false_flag": 1,
+    "routing_errors": 4,
+    "confidence_vs_accuracy": {
+      "high": "1/1",
+      "medium": "2/2",
+      "low": "5/10"
+    }
+  },
+  "gates": {
+    "semua PDF menghasilkan teks": true,
+    "injection tersembunyi di PDF ketahuan": true,
+    "tidak ada bukti yang tidak ada di CV": true,
+    "semua hasil butuh review manusia": true
+  }
+}

@@ -1,0 +1,4 @@
+pydantic>=2.5
+pypdf>=4
+notebook>=7
+# opsional: reportlab>=4 (bikin PDF dummy, tes PDF tanpa teks)

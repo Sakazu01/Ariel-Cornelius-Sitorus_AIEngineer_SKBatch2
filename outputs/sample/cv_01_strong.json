@@ -1,0 +1,193 @@
+{
+  "candidate_ref": "cand_96dee58573",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [
+      {
+        "institution": "Universitas Brawijaya",
+        "degree": "B.Sc.",
+        "field": "Computer Science",
+        "end_year": 2021,
+        "evidence": "Universitas Brawijaya - B.Sc. Computer Science, 2017 - 2021",
+        "confidence": 0.9
+      }
+    ],
+    "experience": [
+      {
+        "company": "PT Karya Digital Nusantara",
+        "title": "AI Engineer",
+        "start": "2022-03",
+        "end": "present",
+        "summary": "Built a RAG pipeline with LangChain and FAISS that answers HR policy questions; cut ticket volume by 30%. Wrapped the service in a REST API and deployed it to AWS.",
+        "evidence": "AI Engineer - PT Karya Digital Nusantara, Mar 2022 - Present",
+        "confidence": 0.9
+      },
+      {
+        "company": "PT Analitika Mandiri",
+        "title": "Data Scientist Intern",
+        "start": "2021-07",
+        "end": "2021-12",
+        "summary": "Trained XGBoost churn models with scikit-learn and reported results to stakeholders. Queried PostgreSQL for feature tables.",
+        "evidence": "Data Scientist Intern - PT Analitika Mandiri, Jul 2021 - Dec 2021",
+        "confidence": 0.9
+      }
+    ],
+    "skills": [
+      {
+        "name": "LangChain",
+        "context": "demonstrated",
+        "evidence": "Built a RAG pipeline with LangChain and FAISS that answers HR policy questions; cut ticket volume by 30%.",
+        "confidence": 0.9
+      },
+      {
+        "name": "RAG",
+        "context": "demonstrated",
+        "evidence": "Built a RAG pipeline with LangChain and FAISS that answers HR policy questions; cut ticket volume by 30%.",
+        "confidence": 0.9
+      },
+      {
+        "name": "AWS",
+        "context": "demonstrated",
+        "evidence": "Wrapped the service in a REST API and deployed it to AWS.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Python",
+        "context": "demonstrated",
+        "evidence": "Wrote Python evaluation scripts for prompt regression tests.",
+        "confidence": 0.9
+      },
+      {
+        "name": "XGBoost",
+        "context": "demonstrated",
+        "evidence": "Trained XGBoost churn models with scikit-learn and reported results to stakeholders.",
+        "confidence": 0.9
+      },
+      {
+        "name": "PostgreSQL",
+        "context": "demonstrated",
+        "evidence": "Queried PostgreSQL for feature tables.",
+        "confidence": 0.9
+      },
+      {
+        "name": "FastAPI",
+        "context": "listed",
+        "evidence": "FastAPI",
+        "confidence": 0.7
+      },
+      {
+        "name": "Docker",
+        "context": "listed",
+        "evidence": "Docker",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.96,
+    "warnings": [],
+    "derived": {
+      "experience_months": 63,
+      "skills_normalized": {
+        "llm": "demonstrated",
+        "rag": "demonstrated",
+        "cloud": "demonstrated",
+        "python": "demonstrated",
+        "machine learning": "demonstrated",
+        "sql": "demonstrated",
+        "fastapi": "listed",
+        "docker": "listed"
+      },
+      "gaps": [
+        {
+          "after": "2021-12",
+          "before": "2022-03",
+          "months": 2
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Wrote Python evaluation scripts for prompt regression tests."
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Built a RAG pipeline with LangChain and FAISS that answers HR policy questions; cut ticket volume by 30%."
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "demonstrated",
+      "evidence": "Trained XGBoost churn models with scikit-learn and reported results to stakeholders."
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Built a RAG pipeline with LangChain and FAISS that answers HR policy questions; cut ticket volume by 30%."
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "Docker"
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "listed",
+      "evidence": "FastAPI"
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Queried PostgreSQL for feature tables."
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Wrapped the service in a REST API and deployed it to AWS."
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 1.0,
+    "nice_to_have": 0.76,
+    "experience": 1.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "strong_match",
+    "score": 0.95,
+    "confidence": "high",
+    "rationale": [
+      "Skor 0.95 = must-have 1.00 x 0.6 + nice-to-have 0.76 x 0.2 + pengalaman 1.00 x 0.2 (63 bulan dari target 12).",
+      "Must-have 'python': demonstrated - bukti: \"Wrote Python evaluation scripts for prompt regression tests.\"",
+      "Must-have 'llm': demonstrated - bukti: \"Built a RAG pipeline with LangChain and FAISS that answers HR policy questions; cut ticke…\"",
+      "Must-have 'machine learning': demonstrated - bukti: \"Trained XGBoost churn models with scikit-learn and reported results to stakeholders.\""
+    ],
+    "caveats": [],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 3,
+      "email": 1,
+      "phone": 1,
+      "url": 1,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

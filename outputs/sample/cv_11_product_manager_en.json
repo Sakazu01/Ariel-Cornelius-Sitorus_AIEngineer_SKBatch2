@@ -1,0 +1,155 @@
+{
+  "candidate_ref": "cand_5db8611f07",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [],
+    "experience": [],
+    "skills": [
+      {
+        "name": "SQL",
+        "context": "demonstrated",
+        "evidence": "Ran more than 40 A/B tests and analyzed funnels with SQL together with",
+        "confidence": 0.9
+      },
+      {
+        "name": "Product roadmapping",
+        "context": "listed",
+        "evidence": "Product roadmapping",
+        "confidence": 0.7
+      },
+      {
+        "name": "Stakeholder management",
+        "context": "listed",
+        "evidence": "Stakeholder management",
+        "confidence": 0.7
+      },
+      {
+        "name": "Agile and Scrum",
+        "context": "listed",
+        "evidence": "Agile and Scrum",
+        "confidence": 0.7
+      },
+      {
+        "name": "A/B testing and experimentation",
+        "context": "listed",
+        "evidence": "A/B testing and experimentation",
+        "confidence": 0.7
+      },
+      {
+        "name": "Google Analytics",
+        "context": "listed",
+        "evidence": "Google Analytics",
+        "confidence": 0.7
+      },
+      {
+        "name": "LLM product discovery",
+        "context": "listed",
+        "evidence": "LLM product discovery",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.28,
+    "warnings": [],
+    "derived": {
+      "experience_months": 0,
+      "skills_normalized": {
+        "sql": "demonstrated",
+        "product roadmapping": "listed",
+        "stakeholder management": "listed",
+        "agile and scrum": "listed",
+        "a/b testing and experimentation": "listed",
+        "google analytics": "listed",
+        "llm product discovery": "listed"
+      },
+      "gaps": []
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "demonstrated",
+      "evidence": "Ran more than 40 A/B tests and analyzed funnels with SQL together with"
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 0.0,
+    "nice_to_have": 0.2,
+    "experience": 0.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "insufficient_info",
+    "score": null,
+    "confidence": "low",
+    "rationale": [
+      "Informasi tidak cukup untuk menghitung skor yang bermakna."
+    ],
+    "caveats": [
+      {
+        "code": "low_extraction_quality",
+        "severity": "major",
+        "message": "Kualitas ekstraksi 0.28 di bawah batas 0.5: informasi di CV terlalu sedikit atau tidak terbaca untuk dinilai. Minta CV yang lebih lengkap."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 0,
+      "email": 1,
+      "phone": 1,
+      "url": 1,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "candidate_ref": "cand_ff9fd8e9cf",
+  "job_id": "ai-engineer-junior-mid",
+  "profile": {
+    "education": [],
+    "experience": [],
+    "skills": [
+      {
+        "name": "Hard skill: Legal drafting",
+        "context": "listed",
+        "evidence": "Hard skill: Legal drafting",
+        "confidence": 0.7
+      },
+      {
+        "name": "legal writing",
+        "context": "listed",
+        "evidence": "legal writing",
+        "confidence": 0.7
+      },
+      {
+        "name": "legal research",
+        "context": "listed",
+        "evidence": "legal research",
+        "confidence": 0.7
+      },
+      {
+        "name": "public speaking",
+        "context": "listed",
+        "evidence": "public speaking",
+        "confidence": 0.7
+      },
+      {
+        "name": "Software: Microsoft Office",
+        "context": "listed",
+        "evidence": "Software: Microsoft Office",
+        "confidence": 0.7
+      },
+      {
+        "name": "Microsoft Excel",
+        "context": "listed",
+        "evidence": "Microsoft Excel",
+        "confidence": 0.7
+      }
+    ],
+    "extraction_quality": 0.27,
+    "warnings": [],
+    "derived": {
+      "experience_months": 0,
+      "skills_normalized": {
+        "hard skill: legal drafting": "listed",
+        "legal writing": "listed",
+        "legal research": "listed",
+        "public speaking": "listed",
+        "software: microsoft office": "listed",
+        "microsoft excel": "listed"
+      },
+      "gaps": []
+    }
+  },
+  "requirements": [
+    {
+      "skill": "python",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "llm",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "machine learning",
+      "kind": "must_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "rag",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "docker",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "fastapi",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "sql",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    },
+    {
+      "skill": "cloud",
+      "kind": "nice_to_have",
+      "level": "missing",
+      "evidence": null
+    }
+  ],
+  "score_breakdown": {
+    "must_have": 0.0,
+    "nice_to_have": 0.0,
+    "experience": 0.0
+  },
+  "injection_findings": [],
+  "recommendation": {
+    "tier": "insufficient_info",
+    "score": null,
+    "confidence": "low",
+    "rationale": [
+      "Informasi tidak cukup untuk menghitung skor yang bermakna."
+    ],
+    "caveats": [
+      {
+        "code": "low_extraction_quality",
+        "severity": "major",
+        "message": "Kualitas ekstraksi 0.27 di bawah batas 0.5: informasi di CV terlalu sedikit atau tidak terbaca untuk dinilai. Minta CV yang lebih lengkap."
+      }
+    ],
+    "requires_human_review": true,
+    "disclaimer": "Rekomendasi ini heuristik berbasis rubric dan hanya untuk membantu prioritisasi. Keputusan akhir ada pada recruiter."
+  },
+  "audit": {
+    "pipeline_version": "0.1.0",
+    "prompt_version": "extract-v1",
+    "llm": "mock",
+    "llm_attempts": 1,
+    "redactions": {
+      "protected_attribute_lines": 0,
+      "email": 1,
+      "phone": 1,
+      "url": 1,
+      "name": 1
+    },
+    "dropped_items": 0,
+    "reference_month": "2026-11"
+  }
+}

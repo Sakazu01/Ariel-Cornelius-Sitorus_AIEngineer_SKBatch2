@@ -1,0 +1,10 @@
+{
+  "job_id": "ai-engineer-junior-mid",
+  "title": "AI Engineer (Junior-Mid)",
+  "must_have": ["python", "llm", "machine learning"],
+  "nice_to_have": ["rag", "docker", "fastapi", "sql", "cloud"],
+  "min_experience_months": 12,
+  "listed_credit": 0.4,
+  "weights": { "must_have": 0.6, "nice_to_have": 0.2, "experience": 0.2 },
+  "thresholds": { "strong": 0.75, "partial": 0.45, "min_quality": 0.5, "near_margin": 0.05 }
+}

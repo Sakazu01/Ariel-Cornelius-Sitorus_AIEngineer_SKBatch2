@@ -1,0 +1,10 @@
+{
+  "job_id": "ai-intern",
+  "title": "AI Engineer Intern",
+  "must_have": ["python", "machine learning"],
+  "nice_to_have": ["sql", "docker", "fastapi"],
+  "min_experience_months": 0,
+  "listed_credit": 0.5,
+  "weights": { "must_have": 0.75, "nice_to_have": 0.25, "experience": 0.0 },
+  "thresholds": { "strong": 0.7, "partial": 0.4, "min_quality": 0.5, "near_margin": 0.05 }
+}
